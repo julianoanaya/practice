@@ -76,3 +76,13 @@ elsif number == 99
 else
   p 0
 end
+
+# 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
+
+number = -34
+number1 = 1
+if number < 0 && number1 > 0
+  p 1
+else
+  p 0 
+end
