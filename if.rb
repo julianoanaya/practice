@@ -46,3 +46,13 @@ elsif number < 30
 else
   p -1
 end
+
+# 6. Use variables to store two numbers, then write a condition that prints 100 if either number is greater than 10, and prints -100 otherwise.
+
+number = 5
+number1 = 2
+if number > 10 || number1 > 10
+  p 100
+else
+  p -100
+end
