@@ -35,3 +35,10 @@ color2 = "yellow"
 color3 = "purple"
 
 p "My favorite colors are #{color1} and #{color2} and #{color3}"
+
+# 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+puts "Please type your name."
+word = gets.chomp
+if word != "Santa"
+  puts "you are not santa"
+end
