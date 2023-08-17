@@ -37,8 +37,15 @@ color3 = "purple"
 p "My favorite colors are #{color1} and #{color2} and #{color3}"
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
-puts "Please type your name."
-word = gets.chomp
-if word != "Santa"
-  puts "you are not santa"
-end
+# puts "Please type your name."
+# word = gets.chomp
+# if word != "Santa"
+#   puts "you are not santa"
+# end
+
+# 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+author = "jacob doe"
+book = "the hunger games"
+
+p author + " wrote the best book ever written... " + book
