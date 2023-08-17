@@ -11,3 +11,11 @@ first_name = "john"
 last_name = "doe"
 
 p "#{first_name}" + " " + "#{ last_name }"
+
+# 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
+
+puts "Please enter a word."
+word = gets.chomp
+if word == "marco"
+  puts "polo"
+end
