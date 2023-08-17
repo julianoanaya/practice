@@ -27,3 +27,11 @@ color2 = "red"
 color3 = "green"
 
 p "my favorite colors are" + " " + color1 + " and " + color2 + " and " + color3
+
+# 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+
+color1 = "brown"
+color2 = "yellow"
+color3 = "purple"
+
+p "My favorite colors are #{color1} and #{color2} and #{color3}"
