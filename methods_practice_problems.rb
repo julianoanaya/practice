@@ -46,8 +46,15 @@
 
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
-p "please type in a number"
-number = gets.chomp
-if number.to_i  < 0
-  p "thats a negative number"
-end
+# p "please type in a number"
+# number = gets.chomp
+# if number.to_i  < 0
+#   p "thats a negative number"
+# end
+
+# 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
+
+p "please type in 2 numbers"
+number1 = gets.chomp
+number2 = gets.chomp
+p number1.to_i * number2.to_i
