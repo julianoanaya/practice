@@ -30,3 +30,10 @@
 p "please type in a number"
 number = gets.chomp
 p number.to_i * 10
+
+# 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+p "please type in 2 words"
+word1 = gets.chomp
+word2 = gets.chomp
+p word1.upcase + word2.upcase
