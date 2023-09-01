@@ -24,8 +24,16 @@
 # end
 
 # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
+# number = 0
+# while number <= 100
+#   p number
+#   number = number + 5
+# end
+
+# 5. Write a while loop that prints the number 9000 ten times.
+
 number = 0
-while number <= 100
-  p number
-  number = number + 5
+while number < 5
+  p 9000
+  number = number + 1
 end
