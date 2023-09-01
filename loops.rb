@@ -55,9 +55,19 @@
 # end
 
 # 8. Write a while loop that prints the phrase "Around the world" 144 times.
-word = "around the world"
-number = 0
-while number < 144
-  p word
-  number = number + 1
-end
+# word = "around the world"
+# number = 0
+# while number < 144
+#   p word
+#   number = number + 1
+# end
+
+# 9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
+
+# while true
+#   p "type in a word"
+#   word = gets.chomp
+#   if word.length > 5
+#     break
+#   end
+# end
