@@ -48,8 +48,16 @@
 # end
 
 # 7. Write a while loop that prints the numbers 50 to 70.
-number = 50
-while number <= 70
-  p number
+# number = 50
+# while number <= 70
+#   p number
+#   number = number + 1
+# end
+
+# 8. Write a while loop that prints the phrase "Around the world" 144 times.
+word = "around the world"
+number = 0
+while number < 144
+  p word
   number = number + 1
 end
