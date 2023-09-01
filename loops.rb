@@ -1,7 +1,24 @@
 # 1. Write a while loop to print the numbers 1 through 10.
 
-number = 1 
-while number <= 10
-  p number
-  number = number + 1
+# number = 1 
+# while number <= 10
+#   p number
+#   number = number + 1
+# end
+
+# 2. Write a while loop that prints the word "hello" 5 times.
+
+# number = 1
+# while number <= 5
+#   p "hello"
+#   number = number + 1
+# end
+
+# 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+while true
+  p "type in a word"
+  word = gets.chomp
+  if word == "stop"
+    break
+  end
 end
