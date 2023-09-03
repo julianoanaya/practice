@@ -72,9 +72,9 @@
 #   end
 # end
 
-# 10. Write a while loop that prints the even numbers from 2 to 40.
-number = 2
-while number <= 40
-  p number
-  number = number + 2
-end
+# # 10. Write a while loop that prints the even numbers from 2 to 40.
+# number = 2
+# while number <= 40
+#   p number
+#   number = number + 2
+# end
