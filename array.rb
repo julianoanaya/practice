@@ -51,6 +51,15 @@
 
 # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
 
-number = [1,2,3,4,5]
-number[0] = number[0] * 10
-p number
+# number = [1,2,3,4,5]
+# number[0] = number[0] * 10
+# p number
+
+# 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
+
+numbers = [1,2]
+index = 0 
+while index <= 1
+  p numbers[index]
+  index = index + 1
+end
