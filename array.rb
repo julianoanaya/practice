@@ -36,9 +36,15 @@
 
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
-name = ["jame", "sam", "mike"]
-index = 0
-while index <= 2
-  p name[index]
-  index = index + 1
-end
+# name = ["jame", "sam", "mike"]
+# index = 0
+# while index <= 2
+#   p name[index]
+#   index = index + 1
+# end
+
+# 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
+
+menu = ["burger", "fries"]
+menu << "drink"
+p menu
