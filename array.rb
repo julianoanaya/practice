@@ -14,9 +14,16 @@
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
-array = [1,2,3,4,5]
-index = 0
-while index <= 4
-  p array[index]
-  index = index + 1
-end
+# array = [1,2,3,4,5]
+# index = 0
+# while index <= 4
+#   p array[index]
+#   index = index + 1
+# end
+# 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+
+array = [1]
+array << 2
+array << 3
+array << 4
+p array
