@@ -45,6 +45,12 @@
 
 # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
 
-menu = ["burger", "fries"]
-menu << "drink"
-p menu
+# menu = ["burger", "fries"]
+# menu << "drink"
+# p menu
+
+# 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
+
+number = [1,2,3,4,5]
+number[0] = number[0] * 10
+p number
