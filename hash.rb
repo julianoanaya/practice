@@ -44,3 +44,16 @@ laptop = { "brand" => "Apple", "model" => "MacBook Air", "year" => 2014 }
 p laptop["brand"]
 p laptop["model"]
 p laptop["year"]
+
+# 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+laptops = [
+  { "brand" => "Microsoft", "model" => "Surface" },
+  { "brand" => "Apple", "model" => "MacBook Pro" },
+  { "brand" => "Dell", "model" => "XPS 13" }
+]
+p laptops[1]["model"]
+
+# 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
+dictionary = { "bad" => "of poor quality or a low standard", "mad" => "very angry" }
+dictionary["glad"] = "delighted"
+p dictionary
