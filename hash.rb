@@ -13,3 +13,8 @@ people = [
 ]
 p people[0]["first_name"]
 p people[0]["last_name"]
+
+# 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
+menu = { "sandwich" => 4, "soda" => 2, "juice" => 3 }
+menu["salad"] = 5
+p menu
