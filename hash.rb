@@ -57,3 +57,9 @@ p laptops[1]["model"]
 dictionary = { "bad" => "of poor quality or a low standard", "mad" => "very angry" }
 dictionary["glad"] = "delighted"
 p dictionary
+
+# 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+shirt = { "brand" => "Hanes", "color" => "white", "size" => "large" }
+p shirt["brand"]
+p shirt["color"]
+p shirt["size"]
