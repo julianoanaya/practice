@@ -25,3 +25,11 @@ p book["title"]
 p book["author"]
 p book["pages"]
 p book["language"]
+
+# 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
+books = [
+  { "title" => "Reality is Broken", "author" => "Jane McGonigal" },
+  { "title" => "Code", "author" => "Charles Petzlod" },
+  { "title" => "The Humane Interface", "author" => "Jef Raskin" }
+]
+p books[2]["author"]
