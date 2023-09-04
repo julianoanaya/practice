@@ -18,3 +18,10 @@ p people[0]["last_name"]
 menu = { "sandwich" => 4, "soda" => 2, "juice" => 3 }
 menu["salad"] = 5
 p menu
+
+# 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
+book = { "title" => "The Art of Game Design", "author" => "Jesse Schell", "pages" => 520, "language" => "English" }
+p book["title"]
+p book["author"]
+p book["pages"]
+p book["language"]
