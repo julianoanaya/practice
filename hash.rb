@@ -33,3 +33,8 @@ books = [
   { "title" => "The Humane Interface", "author" => "Jef Raskin" }
 ]
 p books[2]["author"]
+
+# 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
+capitals = { "California" => "Sacremento", "Illinois" => "Springfield", "New York" => "Albany" }
+capitals["Tennessee"] = "Nashville"
+p capitals
