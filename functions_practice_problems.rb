@@ -13,7 +13,14 @@
 
 # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
-def subtracted(number1, number2)
-  return number1 - number2
+# def subtracted(number1, number2)
+#   return number1 - number2
+# end
+# p subtracted(13,34)
+
+# 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+def multiplied(number)
+  return number * number
 end
-p subtracted(13,34)
+p multiplied(32)
