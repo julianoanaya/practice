@@ -54,7 +54,13 @@
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
-def average(number1, number2, number3)
-  return number1 + number2 + number3 / 3
+# def average(number1, number2, number3)
+#   return number1 + number2 + number3 / 3
+# end
+# p average(4,31,76)
+
+# 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
+def quick_maths(number)
+  return number * 10 + 30
 end
-p average(4,31,76)
+p quick_maths(8)
