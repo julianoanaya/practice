@@ -27,7 +27,14 @@
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
-def get_first_letter(string)
-  return string[0]
+# def get_first_letter(string)
+#   return string[0]
+# end
+# p get_first_letter("stream")
+
+# 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
+
+def get_three_string(string1, string2, string3)
+  return "#{string1} #{string2} #{string3}"
 end
-p get_first_letter("stream")
+p get_three_string("stream", "all", "day")
