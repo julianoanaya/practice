@@ -41,7 +41,13 @@
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
-def number_to_string(number)
-  return number.to_s
+# def number_to_string(number)
+#   return number.to_s
+# end
+# p number_to_string(5)
+
+# 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+def string_times_5(string)
+  return string * 5
 end
-p number_to_string(5)
+p string_times_5("clean")
