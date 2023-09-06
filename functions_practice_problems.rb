@@ -20,7 +20,14 @@
 
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
 
-def multiplied(number)
-  return number * number
+# def multiplied(number)
+#   return number * number
+# end
+# p multiplied(32)
+
+# 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+def get_first_letter(string)
+  return string[0]
 end
-p multiplied(32)
+p get_first_letter("stream")
