@@ -34,7 +34,14 @@
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
-def get_three_string(string1, string2, string3)
-  return "#{string1} #{string2} #{string3}"
+# def get_three_string(string1, string2, string3)
+#   return "#{string1} #{string2} #{string3}"
+# end
+# p get_three_string("stream", "all", "day")
+
+# 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
+
+def number_to_string(number)
+  return number.to_s
 end
-p get_three_string("stream", "all", "day")
+p number_to_string(5)
