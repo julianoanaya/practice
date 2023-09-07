@@ -61,8 +61,17 @@
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
 
-words = ["hello", "goodbye"]
-first_letter = words.map do |word|
-  word.chars.first
+# words = ["hello", "goodbye"]
+# first_letter = words.map do |word|
+#   word.chars.first
+# end
+# p first_letter
+
+# 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+
+hashes = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+age = hashes.map do |hash|
+  hash[:age].to_i * 2
 end
-p first_letter
+p age
