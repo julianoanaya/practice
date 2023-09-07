@@ -44,8 +44,16 @@
 #  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
 
-hashes = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
-age = hashes.map do |hash|
-  hash[:age]
+# hashes = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# age = hashes.map do |hash|
+#   hash[:age]
+# end
+# p age
+
+#  7. Start with an array of numbers and create a new array with each number divided by 2.
+#     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+prices = [1, 2, 3]
+sale_prices = prices.map do |price|
+  price / 2.0
 end
-p age
+p sale_prices
