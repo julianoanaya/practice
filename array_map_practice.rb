@@ -52,8 +52,17 @@
 
 #  7. Start with an array of numbers and create a new array with each number divided by 2.
 #     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
-prices = [1, 2, 3]
-sale_prices = prices.map do |price|
-  price / 2.0
+# prices = [1, 2, 3]
+# sale_prices = prices.map do |price|
+#   price / 2.0
+# end
+# p sale_prices
+
+#  8. Start with an array of strings and create a new array with each string's first letter only.
+#     For example, ["hello", "goodbye"] becomes ["h", "g"].
+
+words = ["hello", "goodbye"]
+first_letter = words.map do |word|
+  word.chars.first
 end
-p sale_prices
+p first_letter
