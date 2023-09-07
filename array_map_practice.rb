@@ -35,8 +35,17 @@
 
 #  5. Start with an array of strings and create a new array with each string's length.
 #     For example, ["hello", "goodbye"] becomes [5, 7].
-arrays = ["helldfvdfvfdo", "goodbye"]
-num_of_letters = arrays.map do |array|
-  array.length
+# arrays = ["helldfvdfvfdo", "goodbye"]
+# num_of_letters = arrays.map do |array|
+#   array.length
+# end
+# p num_of_letters
+
+#  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
+
+hashes = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+age = hashes.map do |hash|
+  hash[:age]
 end
-p num_of_letters
+p age
