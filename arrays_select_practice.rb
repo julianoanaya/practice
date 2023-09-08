@@ -29,3 +29,11 @@ even_numbers = numbers.select do |number|
   number % 2 == 0
 end
 p even_numbers
+
+#  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
+#     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
+words = ["a", "man", "a", "plan", "a", "canal", "panama"]
+short_words = words.select do |word|
+  word.length < 4
+end
+p short_words
