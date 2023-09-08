@@ -16,8 +16,16 @@
 
 #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
-items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
-expensive_items = items.select do |item|
-  item[:price] > 5
+# items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
+# expensive_items = items.select do |item|
+#   item[:price] > 5
+# end
+# p expensive_items
+
+#  4. Start with an array of numbers and create a new array with only the even numbers.
+#     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
+numbers = [2, 4, 5, 1, 8, 9, 7]
+even_numbers = numbers.select do |number|
+  number % 2 == 0
 end
-p expensive_items
+p even_numbers
