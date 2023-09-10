@@ -69,3 +69,11 @@ inexpensive_items = items.select do |item|
   item[:price] < 10
 end
 p inexpensive_items
+
+# 10. Start with an array of numbers and create a new array with only the odd numbers.
+#     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+numbers = [2, 4, 5, 1, 8, 9, 7]
+odd_numbers = numbers.select do |number|
+  number % 2 == 1
+end
+p odd_numbers
