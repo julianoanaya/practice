@@ -53,3 +53,11 @@ large_numbers = numbers.select do |number|
   number >= 23
 end
 p large_numbers
+
+#  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
+#     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
+words = ["big", "little", "good", "bad"]
+non_b_words = words.select do |word|
+  word[0] != "b"
+end
+p non_b_words
