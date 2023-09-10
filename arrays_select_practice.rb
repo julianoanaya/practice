@@ -45,3 +45,11 @@ short_name_things = things.select do |thing|
   thing[:name].length < 6
 end
 p short_name_things
+
+#  7. Start with an array of numbers and create a new array with only the numbers greater than or equal to 23.
+#     For example, [8, 23, 0, 44, 1980, 3] becomes [23, 44, 1980].
+numbers = [8, 23, 0, 44, 1980, 3]
+large_numbers = numbers.select do |number|
+  number >= 23
+end
+p large_numbers
