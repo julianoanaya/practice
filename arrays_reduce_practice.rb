@@ -20,9 +20,20 @@
 
 #  3. Start with an array of hashes and compute the sum of the prices (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes 105.
-items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
-total = 0
-items.each do |item|
-  total += item[:price]
+# items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# total = 0
+# items.each do |item|
+#   total += item[:price]
+# end
+# p total
+
+#  4. Start with an array of numbers and compute the the minumum number.
+#     For example, [5, 10, 8, 3, 9] becomes 3.
+numbers = [5, 10, 8, 3, 9]
+min_num = numbers[0]
+numbers.each do |number|
+  if number < min_num
+    min_num = number
+  end
 end
-p total
+p min_num
