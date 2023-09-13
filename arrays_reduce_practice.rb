@@ -59,9 +59,18 @@
 # p min_price
 #  7. Start with an array of numbers and compute product of all the numbers.
 #     For example, [5, 10, 8, 3] becomes 1200.
-numbers = [5, 10, 8, 3]
-compute_num = 1
-numbers.each do |number|
-  compute_num = compute_num * number
+# numbers = [5, 10, 8, 3]
+# compute_num = 1
+# numbers.each do |number|
+#   compute_num = compute_num * number
+# end
+# p compute_num
+
+#  8. Start with an array of strings and combine them all into a single string, separated by dashes.
+#     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
+strings = ["volleyball", "basketball", "badminton"]
+separated_dash = "-"
+strings.each do |string|
+  separated_dash += "#{string}-"
 end
-p compute_num
+p dash
