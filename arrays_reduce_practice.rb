@@ -77,11 +77,22 @@
 
 #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
-products = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
-shortest = products[0]
-products.each do |product|
-  if product[:name].length < shortest[:name].length
-    shortest = product
+# products = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
+# shortest = products[0]
+# products.each do |product|
+#   if product[:name].length < shortest[:name].length
+#     shortest = product
+#   end
+# end
+# p shortest
+
+# 10. Start with an array of numbers and compute the maximum number.
+#     For example, [5, 10, 8, 3] becomes 10.
+numbers = [5, 10, 8, 3]
+max = numbers[0]
+numbers.each do |number|
+  if number > max
+    max = number
   end
 end
-p shortest
+p max
