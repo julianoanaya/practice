@@ -40,9 +40,20 @@
 
 #  5. Start with an array of strings and compute the total length of all the strings.
 #     For example, ["volleyball", "basketball", "badminton"] becomes 29.
-words = ["volleyball", "basketball", "badminton"]
-number_of_letters = 0
-words.each do |word|
-  number_of_letters = number_of_letters + word.length
+# words = ["volleyball", "basketball", "badminton"]
+# number_of_letters = 0
+# words.each do |word|
+#   number_of_letters = number_of_letters + word.length
+# end
+# p number_of_letters
+
+#  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
+items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
+min_price = items[0]
+items.each do |item|
+  if item[:price] < min_price[:price]
+    min_price = item
+  end
 end
-p number_of_letters
+p min_price
