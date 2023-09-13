@@ -49,11 +49,19 @@
 
 #  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
-items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
-min_price = items[0]
-items.each do |item|
-  if item[:price] < min_price[:price]
-    min_price = item
-  end
+# items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }]
+# min_price = items[0]
+# items.each do |item|
+#   if item[:price] < min_price[:price]
+#     min_price = item
+#   end
+# end
+# p min_price
+#  7. Start with an array of numbers and compute product of all the numbers.
+#     For example, [5, 10, 8, 3] becomes 1200.
+numbers = [5, 10, 8, 3]
+compute_num = 1
+numbers.each do |number|
+  compute_num = compute_num * number
 end
-p min_price
+p compute_num
