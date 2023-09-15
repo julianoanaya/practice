@@ -88,11 +88,11 @@
 
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
-numbers = [5, 10, 8, 3]
-max = numbers[0]
-numbers.each do |number|
-  if number > max
-    max = number
-  end
-end
-p max
+# numbers = [5, 10, 8, 3]
+# max = numbers[0]
+# numbers.each do |number|
+#   if number > max
+#     max = number
+#   end
+# end
+# p max
