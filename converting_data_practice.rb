@@ -39,9 +39,19 @@
 
 #  4. Convert a hash into an array of arrays.
 #     For example, {"chair" => 100, "book" => 14} becomes [["chair", 100], ["book", 14]].
-things = { "chair" => 100, "book" => 14 }
-name_price_pairs = []
-things.each do |name, price|
-  name_price_pairs << [name, price]
+# things = { "chair" => 100, "book" => 14 }
+# name_price_pairs = []
+# things.each do |name, price|
+#   name_price_pairs << [name, price]
+# end
+# p name_price_pairs
+
+#  5. Convert a hash into an array of hashes using the keys from each hash as the :id key in each of the array's hashes.
+#     For example, {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}} becomes [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}].
+people = { 321 => { name: "Alice", age: 31 }, 322 => { name: "Maria", age: 27 } }
+people_array = []
+people.each do |id, person|
+  person[:id] = id
+  people_array << person
 end
-p name_price_pairs
+p people_array
