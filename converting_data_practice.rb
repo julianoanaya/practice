@@ -58,15 +58,25 @@
 
 #  6. Convert an array of strings into a hash with keys for each string in the array and values for the number of times the string appears in the array.
 #     For example, ["do", "or", "do", "not"] becomes {"do" => 2, "or" => 1, "not" => 1}.
-words = ["do", "or", "do", "not"]
-word_frequencies = {}
-index = 0
-while index < words.length
-  word = words[index]
-  if word_frequencies[word] == nil
-    word_frequencies[word] = 0
-  end
-  word_frequencies[word] += 1
-  index = index + 1
+# words = ["do", "or", "do", "not"]
+# word_frequencies = {}
+# index = 0
+# while index < words.length
+#   word = words[index]
+#   if word_frequencies[word] == nil
+#     word_frequencies[word] = 0
+#   end
+#   word_frequencies[word] += 1
+#   index = index + 1
+# end
+# p word_frequencies
+
+#  7. Convert a hash into a flat array containing all the hash’s keys and values.
+#     For example, {"a" => 1, "b" => 2, "c" => 3, "d" => 4} becomes ["a", 1, "b", 2, "c", 3, "d", 4].
+hash = { "a" => 1, "b" => 2, "c" => 3, "d" => 4 }
+flattened_array = []
+hash.each do |key, value|
+  flattened_array << key
+  flattened_array << value
 end
-p word_frequencies
+p flattened_array
