@@ -15,9 +15,16 @@
   
   # 3. Use variables to store two numbers, then write a condition that prints 1 if the numbers are both less than 10, and prints 0 otherwise.
   
-number = 2
-number_2 = 2
-if number < 10 & number_2 < 10:
-    print("1")
+# number = 2
+# number_2 = 2
+# if number < 10 & number_2 < 10:
+#     print("1")
+# else:
+#     print("0")
+# 4. Use a variable to store a number, then write a condition that prints 1 if the number is over 9000, and prints -1 otherwise.
+
+number = 34
+if number > 9000:
+  print(1)
 else:
-    print("0")
+  print(-1)
