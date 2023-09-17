@@ -67,3 +67,12 @@ elif number == 99:
     print(99)
 else:
     print(0)
+
+# 9. Use variables to store two numbers, then write a condition that prints 1 if the first number is less than zero and the second number is greater than 0, and prints 0 otherwise.
+
+number_1 = 3
+number_2 = -22
+if number_1 < 0 & number_2 > 0:
+    print(1)
+else:
+    print(0)
