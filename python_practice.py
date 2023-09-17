@@ -76,3 +76,16 @@ if number_1 < 0 & number_2 > 0:
     print(1)
 else:
     print(0)
+
+# 10. Use a variable to store a number, then write a condition that prints 5 if the number is greater than 80, prints 4 if the number is greater than 60, prints 3 if the number is greater than 40, prints 2 if the number is greater than 20, and prints 1 otherwise (only one print statement should occur).
+number = 73
+if number > 80:
+    print(5)
+elif number > 60:
+    print(4)
+elif number > 40:
+    print(3)
+elif number > 20:
+    print(2)
+else:
+    print(1)
