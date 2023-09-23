@@ -15,19 +15,27 @@
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".m
 
 # Get the user's input
-word = input("Enter a word: ")
+# word = input("Enter a word: ")
 
-# Check if the word is "marco"
-if word == "marco":
-    print("polo!")
-else:
-    print("Not marco.")
+# # Check if the word is "marco"
+# if word == "marco":
+#     print("polo!")
+# else:
+#     print("Not marco.")
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+# color1 = "red"
+# color2 = "blue"
+# color3 = "green"
+
+# sentence = "the best colors are " + color1 + ", " + color2 + ", " + color3
+# print(sentence)
+
+# 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
 color1 = "red"
 color2 = "blue"
 color3 = "green"
 
-sentence = "the best colors are " + color1 + ", " + color2 + ", " + color3
-print(sentence)
+print("the best colors are " f"{color1}, {color2}, {color3}")
