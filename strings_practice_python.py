@@ -59,17 +59,26 @@
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
-book = "Games"
-author = "John Smith"
+# book = "Games"
+# author = "John Smith"
 
-sentence = "the best book ever is " f"{book}" + " by " f"{author}"
-print(sentence)
+# sentence = "the best book ever is " f"{book}" + " by " f"{author}"
+# print(sentence)
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
-word = input("Enter a password: ")
+# word = input("Enter a password: ")
 
-if word == "Joshua":
-    print("Shall we play a game!")
-else:
-    print("Access denied.")
+# if word == "Joshua":
+#     print("Shall we play a game!")
+# else:
+#     print("Access denied.")
+
+# 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+city1 = "New York"
+city2 = "Orlando"
+city3 = "San Diego"
+
+sentence = "the best cities are " + city1 + ", " + city2 + ", " + city3
+print(sentence)
