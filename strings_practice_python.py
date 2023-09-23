@@ -22,3 +22,12 @@ if word == "marco":
     print("polo!")
 else:
     print("Not marco.")
+
+# 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+color1 = "red"
+color2 = "blue"
+color3 = "green"
+
+sentence = "the best colors are " + color1 + ", " + color2 + ", " + color3
+print(sentence)
