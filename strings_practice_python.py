@@ -64,3 +64,12 @@ author = "John Smith"
 
 sentence = "the best book ever is " f"{book}" + " by " f"{author}"
 print(sentence)
+
+# 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
+
+word = input("Enter a password: ")
+
+if word == "Joshua":
+    print("Shall we play a game!")
+else:
+    print("Access denied.")
