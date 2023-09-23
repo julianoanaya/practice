@@ -51,8 +51,16 @@
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
+# book = "Games"
+# author = "John Smith"
+
+# sentence = "the best book ever is " + book + " by " + author
+# print(sentence)
+
+# 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
+
 book = "Games"
 author = "John Smith"
 
-sentence = "the best book ever is " + book + " by " + author
+sentence = "the best book ever is " f"{book}" + " by " f"{author}"
 print(sentence)
