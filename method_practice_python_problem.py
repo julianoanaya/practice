@@ -31,7 +31,15 @@
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
-word1 = input("Enter the first word: ")
-word2 = input("Enter the second word: ")
+# word1 = input("Enter the first word: ")
+# word2 = input("Enter the second word: ")
 
-print(word1.upper() + " " + word2.upper())
+# print(word1.upper() + " " + word2.upper())
+
+# 7 Write a program that asks the user to enter a word, then prints the number of letters in the word.
+
+word = input("Please enter a word: ")
+
+num_letters = len(word)
+
+print("The word " + word + " has " + str(num_letters) + " letters.")
