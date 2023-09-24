@@ -21,10 +21,17 @@
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 
-word = input("Enter a word: ")
+# word = input("Enter a word: ")
 
-reversed_word = ""
-for i in range(len(word) - 1, -1, -1):
-    reversed_word += word[i]
+# reversed_word = ""
+# for i in range(len(word) - 1, -1, -1):
+#     reversed_word += word[i]
 
-print("The reversed word is:", reversed_word)
+# print("The reversed word is:", reversed_word)
+
+# 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+word1 = input("Enter the first word: ")
+word2 = input("Enter the second word: ")
+
+print(word1.upper() + " " + word2.upper())
