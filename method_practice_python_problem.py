@@ -12,9 +12,19 @@
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
-number1 = input("Enter the first number: ")
-number2 = input("Enter the second number: ")
+# number1 = input("Enter the first number: ")
+# number2 = input("Enter the second number: ")
 
-sum = int(number1) + int(number2)
+# sum = int(number1) + int(number2)
 
-print("The sum of the two numbers is:", sum)
+# print("The sum of the two numbers is:", sum)
+
+# 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+word = input("Enter a word: ")
+
+reversed_word = ""
+for i in range(len(word) - 1, -1, -1):
+    reversed_word += word[i]
+
+print("The reversed word is:", reversed_word)
