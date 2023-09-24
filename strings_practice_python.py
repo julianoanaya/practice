@@ -76,9 +76,9 @@
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
 
-city1 = "New York"
-city2 = "Orlando"
-city3 = "San Diego"
+# city1 = "New York"
+# city2 = "Orlando"
+# city3 = "San Diego"
 
-sentence = "the best cities are " + city1 + ", " + city2 + ", " + city3
-print(sentence)
+# sentence = "the best cities are " + city1 + ", " + city2 + ", " + city3
+# print(sentence)
