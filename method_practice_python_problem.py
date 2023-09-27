@@ -38,8 +38,8 @@
 
 # 7 Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
-word = input("Please enter a word: ")
+# word = input("Please enter a word: ")
 
-num_letters = len(word)
+# num_letters = len(word)
 
-print("The word " + word + " has " + str(num_letters) + " letters.")
+# print("The word " + word + " has " + str(num_letters) + " letters.")
