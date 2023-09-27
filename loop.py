@@ -40,3 +40,9 @@ while True:
     if number > 10:
         print("Thank you for entering a number greater than 10.")
         break
+
+# 7. Write a while loop that prints the numbers 50 to 70.
+i = 50
+while i <= 70:
+    print(i)
+    i += 1
