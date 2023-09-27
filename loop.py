@@ -11,3 +11,11 @@ i = 0
 while i < 5:
     print("hello")
     i += 1
+
+# 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+while True:
+    user_input = input("Enter a word: ")
+    if user_input == "stop":
+        break
+    else:
+        print("The word you entered is not stop.")
