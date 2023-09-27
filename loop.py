@@ -35,14 +35,20 @@
 
 # 6. Write a while loop that asks the user to enter a number and will run forever until the user enters a number greater than 10.
 
-while True:
-    number = int(input("Enter a number: "))
-    if number > 10:
-        print("Thank you for entering a number greater than 10.")
-        break
+# while True:
+#     number = int(input("Enter a number: "))
+#     if number > 10:
+#         print("Thank you for entering a number greater than 10.")
+#         break
 
 # 7. Write a while loop that prints the numbers 50 to 70.
-i = 50
-while i <= 70:
-    print(i)
+# i = 50
+# while i <= 70:
+#     print(i)
+#     i += 1
+
+# 8. Write a while loop that prints the phrase "Around the world" 144 times.
+i = 0
+while i < 144:
+    print("Around the world")
     i += 1
