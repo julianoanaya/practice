@@ -59,3 +59,5 @@ while True:
     if len(word) > 5:
         break
     print("The word you entered is too short.")
+
+# 10. Write a while loop that prints the even numbers from 2 to 40.
