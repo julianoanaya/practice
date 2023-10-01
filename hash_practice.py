@@ -22,13 +22,22 @@
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
-book = {
-    "title": "The Greatest Book Ever Written",
-    "author": "John Doe",
-    "number_of_pages": 413,
-    "language": "Greek",
-}
-print(book["title"])
-print(book["author"])
-print(book["number_of_pages"])
-print(book["language"])
+# book = {
+#     "title": "The Greatest Book Ever Written",
+#     "author": "John Doe",
+#     "number_of_pages": 413,
+#     "language": "Greek",
+# }
+# print(book["title"])
+# print(book["author"])
+# print(book["number_of_pages"])
+# print(book["language"])
+
+# 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
+books = [
+    {"title": "The Greatest Book Ever", "author": "James. Smith"},
+    {"title": "The Worst Book Ever", "author": "Joe Doe"},
+    {"title": "The Most Average Book Ever", "author": "John Mart"},
+]
+
+print(books[2]["author"])
