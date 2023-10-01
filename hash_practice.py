@@ -13,3 +13,9 @@ people = [
 ]
 
 print(people[0])
+
+# 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
+
+menu_items = {"burger": 10, "french fries": 3, "drink": 2}
+menu_items["combo"] = 13
+print(menu_items)
