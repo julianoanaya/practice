@@ -67,7 +67,15 @@
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
-definitions = {"word1": "definition1", "word2": "definition2"}
+# definitions = {"word1": "definition1", "word2": "definition2"}
 
-definitions["word3"] = "definition3"
-print(definitions)
+# definitions["word3"] = "definition3"
+# print(definitions)
+
+# 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+# shirt = {"brand": "Nike", "color": "blue", "size": "M"}
+
+# print("brand")
+# print("color")
+# print("size")
