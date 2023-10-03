@@ -27,8 +27,17 @@
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
 
 
-def times_itself(number):
-    return number * number
+# def times_itself(number):
+#     return number * number
 
 
-print(times_itself(143))
+# print(times_itself(143))
+
+# 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+
+def first_letter(string):
+    return string[0]
+
+
+print(first_letter("evverv"))
