@@ -41,3 +41,13 @@ def first_letter(string):
 
 
 print(first_letter("evverv"))
+
+
+# 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
+
+
+def combine_strings(str1, str2, str3):
+    return str1 + " " + str2 + " " + str3
+
+
+print(combine_strings("Hello", "World", "!"))
