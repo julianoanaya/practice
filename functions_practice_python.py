@@ -17,9 +17,18 @@
 # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
 
-def subtract_numbers(number1, number2):
-    return number1 - number2
+# def subtract_numbers(number1, number2):
+#     return number1 - number2
 
 
-result = subtract_numbers(10, 5)
-print(result)
+# result = subtract_numbers(10, 5)
+# print(result)
+
+# 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+
+def times_itself(number):
+    return number * number
+
+
+print(times_itself(143))
