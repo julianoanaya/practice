@@ -55,10 +55,19 @@
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
 
-def number_to_string(number):
-    return str(number)
+# def number_to_string(number):
+#     return str(number)
 
 
-number = 10
-string_number = number_to_string(number)
-print(string_number)
+# number = 10
+# string_number = number_to_string(number)
+# print(string_number)
+
+# 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+
+
+def repeat_string(string):
+    return string * 5
+
+
+print(repeat_string("hello-hi"))
