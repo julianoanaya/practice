@@ -36,18 +36,29 @@
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
 
-def first_letter(string):
-    return string[0]
+# def first_letter(string):
+#     return string[0]
 
 
-print(first_letter("evverv"))
+# print(first_letter("evverv"))
 
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
 
-def combine_strings(str1, str2, str3):
-    return str1 + " " + str2 + " " + str3
+# def combine_strings(str1, str2, str3):
+#     return str1 + " " + str2 + " " + str3
 
 
-print(combine_strings("Hello", "World", "!"))
+# print(combine_strings("Hello", "World", "!"))
+
+# 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
+
+
+def number_to_string(number):
+    return str(number)
+
+
+number = 10
+string_number = number_to_string(number)
+print(string_number)
