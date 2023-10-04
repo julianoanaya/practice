@@ -66,8 +66,17 @@
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
 
-def repeat_string(string):
-    return string * 5
+# def repeat_string(string):
+#     return string * 5
 
 
-print(repeat_string("hello-hi"))
+# print(repeat_string("hello-hi"))
+
+# 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+
+def average(a, b, c):
+    return (a + b + c) / 3.0
+
+
+print(average(1213, 23, 3124))
