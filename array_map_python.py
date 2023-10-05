@@ -9,6 +9,15 @@
 #  2. Start with an array of strings and create a new array with each string upcased.
 #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
 
-strings = ["hello", "goodbye", "hiiiii"]
-uppercased_strings = [string.upper() for string in strings]
-print(uppercased_strings)
+# strings = ["hello", "goodbye", "hiiiii"]
+# uppercased_strings = [string.upper() for string in strings]
+# print(uppercased_strings)
+
+#  3. Start with an array of numbers and create a new array with each number plus 7.
+#     For example, [1, 2, 3] becomes [8, 9, 10].
+
+array = [1, 2, 3]
+
+new_array = [number + 7 for number in array]
+
+print(new_array)
