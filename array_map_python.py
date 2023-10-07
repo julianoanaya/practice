@@ -48,3 +48,11 @@ words = ["hello", "goodbye"]
 first_letters = [word[0].capitalize() for word in words]
 first_letters
 ["H", "G"]
+
+#  7. Start with an array of numbers and create a new array with each number converted into a string.
+#     For example, [1, 2, 3] becomes ["1", "2", "3"].
+
+numbers = [1, 2, 3]
+strings = map(str, numbers)
+strings
+["1", "2", "3"]
