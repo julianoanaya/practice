@@ -39,3 +39,12 @@ array = [1, 2, 3]
 new_array = [number / 2 for number in array]
 
 print(new_array)
+
+#  6. Start with an array of strings and create a new array with each string's first letter only.
+#     For example, ["hello", "goodbye"] becomes ["h", "g"].
+
+
+words = ["hello", "goodbye"]
+first_letters = [word[0].capitalize() for word in words]
+first_letters
+["H", "G"]
