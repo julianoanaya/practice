@@ -11,3 +11,15 @@ print(new_array)
 array = ["hello", "world", "goodbye"]
 new_array = [string for string in array if string.startswith("w")]
 print(new_array)
+
+#  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
+#     For example, [{name: "chair", price: 100},
+hashes = [
+    {"name": "John Doe", "price": 10},
+    {"name": "Jane Doe", "price": 20},
+    {"name": "Peter Smith", "price": 0},
+]
+
+new_hashes = [hash for hash in hashes if hash["price"] > 5]
+
+print(new_hashes)
