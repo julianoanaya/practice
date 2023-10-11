@@ -23,3 +23,11 @@ hashes = [
 new_hashes = [hash for hash in hashes if hash["price"] > 5]
 
 print(new_hashes)
+
+#  4. Start with an array of numbers and create a new array with only the even numbers.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+even_numbers = [number for number in numbers if number % 2 == 0]
+
+print(even_numbers)
