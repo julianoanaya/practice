@@ -31,3 +31,10 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = [number for number in numbers if number % 2 == 0]
 
 print(even_numbers)
+
+#  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
+strings = ["Hello", "World", "My", "Name", "Is", "Bard"]
+
+short_strings = [string for string in strings if len(string) < 4]
+
+print(short_strings)
