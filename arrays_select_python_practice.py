@@ -40,12 +40,22 @@
 # print(short_strings)
 
 
-array = [
-    {"name": "John", "age": 30},
-    {"name": "Jane ", "age": 25},
-    {"name": "Peter ", "age": 40},
-]
+# array = [
+#     {"name": "John", "age": 30},
+#     {"name": "Jane ", "age": 25},
+#     {"name": "Peter ", "age": 40},
+# ]
 
-new_array = filter(lambda hash: len(hash["name"]) < 6, array)
+# new_array = filter(lambda hash: len(hash["name"]) < 6, array)
 
+# print(new_array)
+
+
+#  7. Start with an array of numbers and create a new array with only the numbers less than 10.
+#     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
+
+#  7. Start with an array of numbers and create a new array with only the numbers less than 10.
+#     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
+array = [8, 23, 0, 44, 1980, 3]
+new_array = [number for number in array if number < 10]
 print(new_array)
