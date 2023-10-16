@@ -28,6 +28,18 @@
 #  4. Start with an array of numbers and compute the the minumum number.
 #     For example, [5, 10, 8, 3, 9] becomes 3.
 
-array = [5, 10, 8, 3, 9]
-min_array = min(array)
-print(min_array)
+# array = [5, 10, 8, 3, 9]
+# min_array = min(array)
+# print(min_array)
+
+
+#  5. Start with an array of strings and compute the total length of all the strings.
+#     For example, ["volleyball", "basketball", "badminton"] becomes 29.
+
+array = ["string1", "string2", "string3"]
+
+total_length = 0
+for string in array:
+    total_length += len(string)
+
+print(total_length)
